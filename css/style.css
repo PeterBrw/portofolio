@@ -1,0 +1,45 @@
+/* navbar setup */
+.navbar {
+  /* border-bottom: #008ed6 3px solid; */
+  opacity: 0.8;
+  font-family: Lora;
+}
+
+#cover-section {
+  background: url(../images/photo-1533709752211-118fcaf03312\ \(copy\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cover-section h1 {
+  font-family: Monoton;
+}
+
+#cover-section hr {
+  border-top: 2px solid white;
+}
+
+.about-me h1 {
+  font-family: Lora;
+}
+
+.about-me #picture {
+  background: url(../images/54255948_2339349429675693_2624528040683634688_n.jpg);
+  background-size: cover;
+  min-height: 770px;
+}
+
+.about-me #about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-style: none;
+}
