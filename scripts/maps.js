@@ -180,3 +180,5 @@ function initMap() {
   map.mapTypes.set('styled_map', styledMapType);
   map.setMapTypeId('styled_map');
 }
+
+document.querySelector('.year').textContent = new Date().getFullYear()
