@@ -40,6 +40,26 @@
   justify-content: center;
 }
 
-.card {
+.about-me .card {
   border-style: none;
+}
+
+.skills {
+  background-color: #f6f6f6;
+}
+
+.skills h1 {
+  font-family: Lora;
+}
+
+.skills .card {
+  background-color: #f6f6f6;
+}
+
+.skills .card:hover {
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, .1);
+}
+
+.projects h1 {
+  font-family: Lora;
 }
