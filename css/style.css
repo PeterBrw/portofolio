@@ -32,11 +32,10 @@
   font-family: Lora;
 }
 
-.about-me img {
-  /* background: url(../images/54255948_2339349429675693_2624528040683634688_n.jpg);
-  background-size: cover; */
-  width: 100%;
-  height: 770px;
+.about-me #picture {
+  background: url(../images/54255948_2339349429675693_2624528040683634688_n.jpg);
+  background-size: cover;
+  min-height: 770px;
 }
 
 .about-me #about {
@@ -113,4 +112,10 @@ footer {
   background-color: gray;
   color: #fff;
   font-family: Lora;
+}
+
+@media (max-width: 1000px) {
+  .about-me #picture {
+    background-position:right bottom;
+  }
 }
