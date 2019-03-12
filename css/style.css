@@ -63,3 +63,18 @@
 .projects h1 {
   font-family: Lora;
 }
+
+.projects .card {
+  box-shadow:  0 12px 12px 0 #d3d3d3;
+}
+.projects .card h5 {
+  font-family: Lora;
+}
+
+.projects .card:hover {
+  transform: scale(1.05);
+}
+
+.projects .fab .fa-github {
+  size: 5x;
+}
