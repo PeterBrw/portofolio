@@ -28,6 +28,10 @@
   font-family: Lora;
 }
 
+.about-me h2 {
+  font-family: Lora;
+}
+
 .about-me #picture {
   background: url(../images/54255948_2339349429675693_2624528040683634688_n.jpg);
   background-size: cover;
