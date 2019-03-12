@@ -78,3 +78,7 @@
 .projects .fab .fa-github {
   size: 5x;
 }
+
+.projects a {
+  color: black;
+}
